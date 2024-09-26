@@ -68,3 +68,31 @@ body {
     /* 陰影 */
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
+/* 修改所有按鈕的背景和字體顏色 */
+.wrapper .btn {
+    background-color: #f0f0f0; /* 預設背景顏色 */
+    color: #333; /* 預設字體顏色 */
+}
+/* 第一個按鈕 */
+.wrapper .btn:nth-child(2) {
+    background-color: #ffbcbc; /* 紅色背景 */
+    color: #ff000074; /* 白色字體 */
+}
+
+/* 第二個按鈕 */
+.wrapper .btn:nth-child(3) {
+    background-color: #c0ffc0; /* 綠色背景 */
+    color: #2bff004e; /* 白色字體 */
+}
+
+/* 第三個按鈕 */
+.wrapper .btn:nth-child(4) {
+    background-color: #b9d0fd; /* 藍色背景 */
+    color: #0033ff19; /* 白色字體 */
+}
+
+/* 第四個按鈕 */
+.wrapper .btn:nth-child(5) {
+    background-color: #ffe2a8; /* 黃色背景 */
+    color: #ffea000c; /* 深色字體 */
+}
